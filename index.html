@@ -1,0 +1,335 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="logocl.jpg" type="image/x-icon">
+    <link rel="shortcut icon" href="logocl.jpg" type="image/x-icon">
+    <title>Worldwide Artistry Fiesta (WAF)</title>
+    <script>
+	window.onbeforeunload = function () {
+  	window.scrollTo(0, 0);
+	}
+    </script>
+    <style>
+  	::-webkit-scrollbar {
+    	display: none;
+	}
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-image: url('bg.jpeg');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            color: rgb(39, 185, 95);
+        }
+
+        .header {
+            text-align: center;
+            padding: 1% 0;
+        }
+
+        .header img {
+            width: 35%;
+            display: block;
+            margin: 0 auto;
+        }
+
+        .header h1 {
+            font-family: Brush Script MT, cursive;
+            font-size: 4em;
+            margin-top: 1%;
+            color: rgb(29, 48, 129);
+        }
+
+        .about-section, .competition-section {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2%;
+            border-radius: 10px;
+            margin: 3% auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            position: relative;
+        }
+
+          .about-header {
+            width: 80%;
+            color: darkred;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 1%;
+            border-radius: 10px;
+            margin: 3% auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            position: relative;
+        }
+
+          .note {
+            width: 80%;
+            color: darkred;
+            background-color: rgba(255, 100, 100, 0.8);
+            padding: 1%;
+            border-radius: 10px;
+            margin: 3% auto;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+            position: relative;
+        }
+
+
+        .competition-section::before,
+        .competition-section::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 15px; /* Adjust this value for the desired blur area */
+            background: rgba(255, 255, 255, 0.8);
+            filter: blur(5px); /* Adjust this value for the desired blur strength */
+        }
+
+        .competition-section::before {
+            left: 0;
+        }
+
+        .competition-section::after {
+            right: 0;
+        }
+
+        .competition-section h2 {
+            font-size: 2.4em;
+            margin: 1% 0;
+            color: rgb(221, 123, 11);
+        }
+
+        .about-section h2 {
+            font-size: 1.2em;
+            color: #918151;
+        }
+
+        .about-section p {
+            font-size: 1.2em;
+            color: #2e5066;
+        }
+
+        .competition-section p, .competition-section ul {
+            color: #0b8146;
+        }
+
+        .email-link {
+            font-weight: bold;
+            color: #0771d4;
+            text-decoration: none;
+        }
+
+        .email-link:hover {
+            text-decoration: underline;
+        }
+
+        .google-form-link {
+            display: block;
+            text-align: center;
+            padding: 1% 2%;
+            background: linear-gradient(to bottom, #864167, #476596);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 2%;
+            font-weight: bold;
+        }
+
+        .google-form-link:hover {
+            background: linear-gradient(to bottom, #418682, #a0b626);
+        }
+
+        footer {
+            text-align: center;
+            background: rgba(255, 255, 255, 0.8);
+            padding: 2%;
+            border-top: 2px solid #4285f4;
+        }
+
+        /* Add hover effect for both sections */
+        .about-section:hover, .competition-section:hover {
+            transform: scale(0.95);
+        }
+
+        /* Reduce the size of sections */
+        .about-section, .competition-section {
+            max-width: 80%;
+        }
+
+        .competition-details img {
+            width: 30%;
+            margin-right: 2%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <img src="logo2.png" alt="WAF Logo">
+        <h1>Worldwide Artistry Fiesta (WAF)</h1>
+    </div>
+
+    <div class="about-section">
+        <h2>About Us</h2>
+        <p>
+            Welcome to Worldwide Artistry Fiesta (WAF)! We are thrilled to have you join us in this global celebration of talent and creativity. Founded by <b><i><u>Gulabar Preet Singh</u></i></b>, this initiative is driven by the belief that art knows no boundaries, and talent is a universal language that unites us all. The purpose of WAF is to provide a stage for individuals from diverse corners of the world to showcase their unique abilities. We aspire to create a vibrant community that fosters creativity, encourages passion, and embraces the beauty of diversity. Our mission is to inspire, connect, and celebrate the amazing talents that make our world a richer and more colorful place. Join us in this exciting journey of discovery and artistic expression!
+        </p>
+    </div>
+
+     <div class="note">
+        <center>
+        <h2>📌 Note!!</h2>
+        </center>
+        <p>
+            <FONT COLOR="#fffff">
+            <center>
+             The video you submit on the form will be uploaded to our official YouTube channel, and the views on your video are also important.
+            </center>
+        </p>
+    </div> 
+
+    <marquee style="color: rgb(26, 8, 10);">
+        <b>   <strong>Upcoming:</strong> Speech Competition (November 10 - November 30, 2023) | Next: Dance Competition (December 20 - January 20, 2024) | Stay tuned for more exciting events! </b>
+    </marquee>
+
+    <div class="competition-section">
+        <h2>Competition 1: Speech Competition</h2>
+       
+        <div class="competition-details">
+            <b>
+                <p>Date: November 10 - November 30, 2023</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Content: 30 points</li>
+                    <li>Expression and Delivery: 25 points</li>
+                    <li>Time Management: 20 points</li>
+                    <li>Creativity and Originality: 15 points</li>
+                    <li>Overall Impact: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+    <div class="competition-section">
+        <h2>Competition 2: Dance Competition</h2>
+      
+        <div class="competition-details">
+            <b>
+                <p>Date: December 20 - January20, 2024</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Technique and Skill: 30 points</li>
+                    <li>Chereeography and Creativity: 25 points</li>
+                    <li>Expression and Emotion: 20 points</li>
+                    <li>Synchronization: 15 points</li>
+                    <li>Costume and Stage Presence: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+ <div class="competition-section">
+        <h2>Competition 3: Music Performance(Singing)</h2>
+      
+        <div class="competition-details">
+            <b>
+                <p>Date: February 10 - March 10, 2024</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Technique and Musical Skill: 30 points</li>
+                    <li>Expression and Interpretation: 25 points</li>
+                    <li>Tone and Pitch: 20 points</li>
+                    <li>Creativity and Arrangement: 15 points</li>
+                    <li>Overall Performance: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+
+ <div class="competition-section">
+        <h2>Competition 4: Music Performance(instrumental)</h2>
+      
+        <div class="competition-details">
+            <b>
+                <p>Date: April 1 - April 30, 2024</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Technique and Skill: 30 points</li>
+                    <li>Musicality: 25 points</li>
+                    <li>Tone Quality: 20 points</li>
+                    <li>Artistic Expression: 15 points</li>
+                    <li>Appropriate body language: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+ <div class="competition-section">
+        <h2>Competition 5: Coding or Programming Challange</h2>
+     
+        <div class="competition-details">
+            <b>
+                <p>Date: May 20 - June 20, 2024</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Efficiency and Optimization: 30 points</li>
+                    <li>Correctness of Code: 25 points</li>
+                    <li>Creativity in Problem-Solving: 20 points</li>
+                    <li>Clarity and Structure of Code: 15 points</li>
+                    <li>Presentation and Explanation: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+
+ <div class="competition-section">
+        <h2>Competition 6: Cooking Challenge</h2>
+       
+        <div class="competition-details">
+            <b>
+                <p>Date: July 10 - August 10, 2024</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Explanation: 30 points</li>
+                    <li>Presentation and Plating: 25 points</li>
+                    <li>Technique and Skill: 20 points</li>
+                    <li>Creativity and Originality of Recipe: 15 points</li>
+                    <li>Feedback Of Audience: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+ <div class="competition-section">
+        <h2>Competition 7: Knitting or Handicrafts Competition</h2>
+      
+        <div class="competition-details">
+            <b>
+                <p>Date: September 1 - October 1, 2024</p>
+                <p>Judging Criteria:</p>
+                <ul>
+                    <li>Skill and Precision: 30 points</li>
+                    <li>Creativity and Design: 25 points</li>
+                    <li>Use of Color and Materials:: 20 points</li>
+                    <li>Complexity of Project: 15 points</li>
+                    <li>Overall Aesthetics: 10 points</li>
+                </ul>
+            </b>
+        </div>
+    </div>
+
+
+    <a href="https://forms.gle/pQ8jbpohQPf2wZYF8" class="google-form-link">Register for the competition</a><br><br>
+
+    <footer style="color: #bd721c;">
+        If you have any doubts or need assistance, please email us at <p><a href="mailto:worldwide.artistry.fiesta@gmail.com"class=".email-link">worldwide.artistry.fiesta@gmail.com</a>.</p>
+    </footer>
+</body>
+</html>
